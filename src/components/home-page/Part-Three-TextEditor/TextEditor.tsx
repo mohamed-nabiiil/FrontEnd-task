@@ -3,7 +3,7 @@ import styles from "./TextEditor.module.css";
 import ToolbarButton from "./ToolbarButton";
 
 // Define the toolbar button data structure
-interface ToolbarButton {
+interface ToolbarData {
   icon: string;
   alt: string;
   onClick?: () => void;
@@ -109,7 +109,7 @@ const TextEditor: React.FC = () => {
   }, []);
 
   // Define the toolbar buttons data
-  const toolbarButtons: ToolbarButton[] = [
+  const toolbarButtons: ToolbarData[] = [
     {
       icon: "/assets/icons/orderedList.svg",
       alt: "Ordered List",

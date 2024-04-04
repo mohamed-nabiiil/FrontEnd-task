@@ -1,5 +1,3 @@
-/* components/TextEditor.module.css */
-
 .textEditor {
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -11,13 +9,12 @@
   
   background-color: #6D5CBC1A;
 }
-.toolbar button {
+.toolbarButton{
   width: 80px;
   height: 64px;
   padding: 8px 24px;
   gap: 10px;
   border: 0px 0.5px 0px 0px;
-  opacity: 0px;
 }
 .editorContent {
   border-top: 1px solid #ccc;

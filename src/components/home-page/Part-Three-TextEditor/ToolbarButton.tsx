@@ -14,7 +14,7 @@ const ToolbarButton: React.FC<ToolbarButtonProps> = ({
   onClick,
 }) => {
   return (
-    <button onClick={onClick} className={`${styles.toolbarButton}`}>
+    <button onClick={onClick} className={styles.toolbarButton}>
       <Image src={icon} alt={alt} width={24} height={24} />
     </button>
   );
