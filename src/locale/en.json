@@ -1,0 +1,23 @@
+{
+  "Home": "Home",
+  "Categories": "Categories",
+  "Contact US": "Contact Us",
+  "About": "About",
+  "Results": "Results",
+  "First Name": "First Name",
+  "Last Name": "Last Name",
+  "Mobile Number": "Mobile Number",
+  "Email": "Email",
+  "Part 1": "Part 1",
+  "Part 2": "Part 2",
+  "Part 3": "Part 3",
+   "Utilize the provided Strapi API from the assessment to post user data into your Redux store. You are required to": "Utilize the provided Strapi API from the assessment to post user data into your Redux store. You are required to",
+  "add one user into the 'users' collection and display this data in a table using a Get request. Ensure the": "add one user into the 'users' collection and display this data in a table using a Get request. Ensure the",
+  "implementation of Redux for state management, including both POST requests for adding a user and GET": "implementation of Redux for state management, including both POST requests for adding a user and GET",
+  "requests for displaying data in table.": "requests for displaying data in table.",
+  "Implement a map using any library of your choice (leaflet is recommended). Search for the coordinates of 'Digifly": "Implement a map using any library of your choice (leaflet is recommended). Search for the coordinates of 'Digifly",
+  "Company' on Google Maps, then place a tooltip at these coordinates. Ensure that the tooltip styling matches the": "Company' on Google Maps, then place a tooltip at these coordinates. Ensure that the tooltip styling matches the",
+  "provided design below.": "provided design below.",
+  "Implement a text editor that precisely replicates the UI styles provided. It's essential to create the undo and redo functionalities from scratch, along with two additional features of choice. You may use any package, but creating these functionalities from scratch will be advantageous. Ensure that all text editor functionalities are operational.": "Implement a text editor that precisely replicates the UI styles provided. It's essential to create the undo and redo functionalities from scratch, along with two additional features of choice. You may use any package, but creating these functionalities from scratch will be advantageous. Ensure that all text editor functionalities are operational.",
+  "All Rights Reserved © Digifly 2024":"All Rights Reserved © Digifly 2024"
+}
