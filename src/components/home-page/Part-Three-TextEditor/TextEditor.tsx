@@ -175,8 +175,16 @@ const TextEditor: React.FC = () => {
           />
         ))}
         {/* Add undo and redo buttons */}
-        <ToolbarButton icon="undo.svg" alt="Undo" onClick={handleUndo} />
-        <ToolbarButton icon="redo.svg" alt="Redo" onClick={handleRedo} />
+        <ToolbarButton
+          icon="/assets/icons/undo.svg"
+          alt="Undo"
+          onClick={handleUndo}
+        />
+        <ToolbarButton
+          icon="/assets/icons/redo.svg"
+          alt="Redo"
+          onClick={handleRedo}
+        />
       </div>
       {/* Editor content area */}
       <div
