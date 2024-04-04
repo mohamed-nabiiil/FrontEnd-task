@@ -111,53 +111,53 @@ const TextEditor: React.FC = () => {
   // Define the toolbar buttons data
   const toolbarButtons: ToolbarButton[] = [
     {
-      icon: "orderedList.svg",
+      icon: "/assets/icons/orderedList.svg",
       alt: "Ordered List",
     },
     {
-      icon: "unorderedList.svg",
+      icon: "/assets/icons/unorderedList.svg",
       alt: "Unordered List",
     },
     {
-      icon: "indent.svg",
+      icon: "/assets/icons/indent.svg",
       alt: "Indent",
     },
     {
-      icon: "alignLeft.svg",
+      icon: "/assets/icons/alignLeft.svg",
       alt: "Align Left",
     },
     {
-      icon: "alignCenter.svg",
+      icon: "/assets/icons/alignCenter.svg",
       alt: "Align Center",
     },
     {
-      icon: "alignRight.svg",
+      icon: "/assets/icons/alignRight.svg",
       alt: "Align Right",
     },
     {
-      icon: "outdent.svg",
+      icon: "/assets/icons/outdent.svg",
       alt: "Outdent",
     },
     {
-      icon: "fontFamily.svg",
+      icon: "/assets/icons/fontFamily.svg",
       alt: "Font Family",
     },
     {
-      icon: "bold.svg",
+      icon: "/assets/icons/bold.svg",
       alt: "Bold",
       onClick: toggleBold,
     },
     {
-      icon: "italic.svg",
+      icon: "/assets/icons/italic.svg",
       alt: "Italic",
       onClick: toggleItalic,
     },
     {
-      icon: "underLine.svg",
+      icon: "/assets/icons/underLine.svg",
       alt: "Underline",
     },
     {
-      icon: "formatting.svg",
+      icon: "/assets/icons/formatting.svg",
       alt: "formatting",
     },
   ];
